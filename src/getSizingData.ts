@@ -24,6 +24,7 @@ const SIZING_STYLE = [
   'textTransform',
   'width',
   'wordBreak',
+  'wordSpacing',
 ] as const;
 
 type SizingProps = Extract<
